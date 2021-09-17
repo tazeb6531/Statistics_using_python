@@ -1,0 +1,46 @@
+
+Top 20 Git Commands with Examples
+
+git config 
+    Usage: git config –global user.name “[name]”  
+    Usage: git config –global user.email “[email address]”
+    This command sets the author name and email address respectively to be used with your commits.
+git init
+    
+git clone
+git add 
+    Helps to save in the local repository but not in the gihub repository. to add it in github need to push it.
+    There are three types:
+     1. Usage: git add [file] -- here list the specific files that we want to add on it
+     2. add. --- here we wil add the whole file  
+    This command adds a file to the staging area.
+    Examples: 
+    PS C:\Users\tazeb\OneDrive\myDataScience\Statistics\Codes\Statistics_using_python> git add.
+    NB the dot
+git commit
+    Usage: git commit -m “[ Type in the commit message]”  
+    This command records or snapshots the file permanently in the version history.
+    Examples: 
+            C:\Users\tazeb\OneDrive\myDataScience\Statistics\Codes\Statistics_using_python> git commint -m "added git.commmand reference"
+git diff
+git reset
+git status
+    Usage: git status  
+    This command lists all the files that have to be committed.
+    Examples
+          PS C:\Users\tazeb\OneDrive\myDataScience\Statistics\Codes\Statistics_using_python> git status
+git rm
+git log
+git show
+git tag
+git branch
+git checkout
+git merge
+git remote
+git push
+    Usage: git push [variable name] master
+    This command sends the committed changes of master branch to your remote repository.
+    Examples: 
+    C:\Users\tazeb\OneDrive\myDataScience\Statistics\Codes\Statistics_using_python> git push
+git pull
+git stash
